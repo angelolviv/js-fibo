@@ -6,7 +6,7 @@ function fibo(n) {
 		n1 = n2;
 		n2 = n3;
 	}
-	return n2;
+	return n1;
 }
 
 var n = Number(prompt('Введіть номер числа Фібоначчі:'));
